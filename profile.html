@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Raka Wisesa</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body shadow-lg sticky-top" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"><i class="bi bi-fire"></i> Raka Wisesa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">Portfolios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section id="home">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active vh-100">
+                <img src="https://img.freepik.com/free-photo/leaf-nature-backgrounds-pattern-illustration-plant-backdrop-design-abstract-vibrant-green-nature-wallpaper-illustration-generative-ai_188544-12680.jpg?w=1060&t=st=1706681861~exp=1706682461~hmac=0e67cbdac63db7cd5a23b84df6dd6bd5c9197935cb64cc74fa73ca173f85eeb6" class="d-block object-fit-cover w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Raka Wisesa</h1>
+                    <p>This is my simple website</p>
+                </div>
+            </div>
+            <div class="carousel-item vh-100">
+                <img src="https://img.freepik.com/free-photo/majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai_188544-15662.jpg?w=1060&t=st=1706681911~exp=1706682511~hmac=be7b971dac6e489db1820a85d209661c267aa3688c9451dbf2dc942da7410057" class="d-block object-fit-cover w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Raka Wisesa</h1>
+                    <p>Graduate from SMK N 2 Depok Sleman on 2025</p>
+                </div>
+            </div>
+            <div class="carousel-item vh-100">
+                <img src="https://img.freepik.com/free-photo/nature-underwater-garden-growth-seashell-fish-generative-ai_188544-12883.jpg?w=1060&t=st=1706681934~exp=1706682534~hmac=95dc38f96db67649d9e690000fbc89d8f9e09044b42024a6ca01f2e57336118f" class="d-block object-fit-cover w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Raka Wisesa</h1>
+                    <p>Having high enthustiasm to any new things especially IT</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Cards -->
+    <section id="portfolios">
+        <div class="p-lg-5 p-2 my-5">
+            <h2 class="text-center mb-5">My Portfolios</h2>
+            <div class="d-flex justify-content-evenly flex-wrap gap-5 gap-lg-0">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn-media-1.freecodecamp.org/images/1*KF0dp-zZ53RDxqiX5pDCQA.jpeg" class="card-img-top" style="object-fit: cover; height: 250px; width: 100%" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Inventory System</h5>
+                        <p class="d-inline-flex gap-1">
+                            <a class="btn btn-outline-success" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
+                            More info
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapse1">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://careerkarma.com/blog/wp-content/uploads/2021/11/coding-portfolio.png" class="card-img-top" style="object-fit: cover; height: 250px; width: 100%" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Laravel Projects</h5>
+                        <p class="d-inline-flex gap-1">
+                            <a class="btn btn-outline-success" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
+                            More info
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapse2">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.programmingforbeginnersbook.com/public/images/logo.gif" class="card-img-top" style="object-fit: cover; height: 250px; width: 100%" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Library Management System</h5>
+                        <p class="d-inline-flex gap-1">
+                            <a class="btn btn-outline-success" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3">
+                            More info
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapse3">
+                            <div class="card card-body">
+                            Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contacts">
+        <div class="border mx-5 mb-5">
+            <form class="container my-5">
+                <h2 class="text-center mb-5">Contact Me</h2>
+                <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" placeholder="Input your phone number" id="phone">
+                </div>
+                <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" placeholder="Input your email address" id="email" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Input your name" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Messages</label>
+                    <textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Input your messages"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
